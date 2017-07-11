@@ -15,3 +15,5 @@ Do
 	gem unpack hflr
 	
 to get the source locally.	 Check the 'test' directory for example code.
+
+[x] 10-07-2017, Linha 107 de fl_record_file.rb alterado para o tipo de registro com 2 caracteres de largura.

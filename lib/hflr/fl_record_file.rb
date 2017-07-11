@@ -104,7 +104,7 @@ end
 def get_record_type(line)
   return nil if line.nil?  
   return nil if line.strip.empty?
-  @record_type_labels.is_a?(Hash) ? @record_type_labels[line[0..0]] : @record_type_labels       
+  @record_type_labels.is_a?(Hash) ? @record_type_labels[line[0..1]] : @record_type_labels       
 end
 
 def  build_record(line)    
